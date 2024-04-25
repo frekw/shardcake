@@ -2,7 +2,6 @@ package com.devsisters.shardcake
 
 import caliban.QuickAdapter
 import caliban.wrappers.Wrappers.printErrors
-import sttp.tapir.json.zio._
 import zio.http.{ Server => ZServer, _ }
 import zio._
 
