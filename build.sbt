@@ -80,9 +80,7 @@ lazy val manager = project
   .settings(
     libraryDependencies ++=
       Seq(
-        "com.github.ghostdogpr"       %% "caliban"        % calibanVersion,
-        "com.github.ghostdogpr"       %% "caliban-quick"  % calibanVersion,
-        "com.softwaremill.sttp.tapir" %% "tapir-json-zio" % "1.9.8"
+        "com.github.ghostdogpr" %% "caliban-quick" % calibanVersion
       )
   )
 
